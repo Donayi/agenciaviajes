@@ -5,7 +5,7 @@ const Nav = props => {
 
     return (
         <nav>
-            <Link to='/'>Logo</Link>
+            <Link to='/'><i class="fas fa-atom"></i></Link>
             <div>
                 <Link to='/singin'>SingIn</Link>
                 <Link to='/singup'>SingUp</Link>

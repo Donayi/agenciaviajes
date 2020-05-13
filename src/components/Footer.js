@@ -2,9 +2,13 @@ import React from 'react'
 
 const Footer = props => {
     return (
-        <h2>Footer</h2>
-        <h2>Facebook</h2>
-        <h2>Twitter</h2>
+        <footer>
+           
+            <h2><i class="fab fa-twitter"></i></h2>
+            <h2><i class="fab fa-facebook"></i></h2>
+            <h2><i class="fab fa-instagram"></i></h2>
+            
+        </footer>
     )
 }
 export default Footer

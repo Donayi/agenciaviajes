@@ -1,9 +1,10 @@
 import React from 'react'
+import Hero from './Hero'
 const Home = props => {
 
     return (
         <>
-            <h2>Banner principal</h2>
+            <Hero></Hero>
             <h2>Parrillado</h2>
         </>
     )
